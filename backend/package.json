@@ -1,0 +1,11 @@
+{
+  "name": "social-media-backend",
+  "version": "1.0.0",
+  "description": "Complete Social Media Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {}
+}

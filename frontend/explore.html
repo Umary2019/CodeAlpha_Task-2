@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - SocialConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <style>
+        .explore-section { margin-top: 80px; padding: 2rem 0; }
+        .explore-header { text-align: center; margin-bottom: 2rem; }
+        .explore-header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .users-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+        .user-card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); text-align: center; }
+        .user-avatar { width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 1rem; }
+        .user-card h3 { margin-bottom: 0.5rem; }
+        .user-username { color: #1877f2; font-weight: 600; margin-bottom: 0.5rem; }
+        .user-bio { color: #666; margin-bottom: 1rem; font-size: 0.9rem; }
+        .user-stats { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1.5rem; font-size: 0.9rem; }
+        .user-stat { text-align: center; }
+        .user-stat .count { font-weight: 700; display: block; }
+        .user-stat .label { color: #666; font-size: 0.8rem; }
+        .login-prompt { text-align: center; padding: 4rem 2rem; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>💬 SocialConnect</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="feed.html" class="nav-link">Feed</a>
+                <a href="explore.html" class="nav-link active">Explore</a>
+                <div id="auth-links" class="auth-links">
+                    <a href="login.html" class="nav-link">Login</a>
+                    <a href="register.html" class="nav-link">Register</a>
+                </div>
+                <div id="user-links" class="user-links" style="display: none;">
+                    <a href="profile.html" class="nav-link" id="profile-link">Profile</a>
+                    <span id="user-name" class="nav-link user-name"></span>
+                    <button id="logout-btn" class="nav-link logout-btn">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="explore-section">
+        <div class="container">
+            <div class="explore-header">
+                <h1>Explore Users</h1>
+                <p>Discover and connect with people</p>
+            </div>
+
+            <div id="users-grid" class="users-grid">
+                <!-- Users will be loaded here -->
+            </div>
+
+            <div id="no-users" class="login-prompt" style="display: none;">
+                <h3>No users found</h3>
+                <p>There are no other users to display at the moment.</p>
+            </div>
+
+            <div id="login-prompt" class="login-prompt" style="display: none;">
+                <h3>Connect with Others</h3>
+                <p>Login to explore and follow users</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;">
+                    <a href="login.html" class="btn btn-primary">Login</a>
+                    <a href="register.html" class="btn btn-secondary">Register</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="loading" class="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

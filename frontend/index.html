@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialConnect - Connect with Friends</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>💬 SocialConnect</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="feed.html" class="nav-link">Feed</a>
+                <a href="explore.html" class="nav-link">Explore</a>
+                <div id="auth-links" class="auth-links">
+                    <a href="login.html" class="nav-link">Login</a>
+                    <a href="register.html" class="nav-link">Register</a>
+                </div>
+                <div id="user-links" class="user-links" style="display: none;">
+                    <a href="profile.html" class="nav-link" id="profile-link">Profile</a>
+                    <span id="user-name" class="nav-link user-name"></span>
+                    <button id="logout-btn" class="nav-link logout-btn">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to SocialConnect</h1>
+            <p>Share your thoughts, connect with friends, and discover amazing content. Join our community today!</p>
+            <div class="hero-buttons">
+                <a href="register.html" class="btn btn-primary">Get Started</a>
+                <a href="feed.html" class="btn btn-secondary">View Feed</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Join SocialConnect?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>📝 Share Posts</h3>
+                    <p>Express yourself with text and image posts</p>
+                </div>
+                <div class="feature-card">
+                    <h3>❤️ Like & Comment</h3>
+                    <p>Engage with content from your friends</p>
+                </div>
+                <div class="feature-card">
+                    <h3>👥 Follow Users</h3>
+                    <p>Connect with people who share your interests</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔍 Discover</h3>
+                    <p>Find new friends and interesting content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="loading" class="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

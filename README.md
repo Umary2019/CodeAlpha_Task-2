@@ -1,8 +1,3 @@
-<img width="1600" height="900" alt="Social 5" src="https://github.com/user-attachments/assets/138cee15-6de5-4639-a36b-a3bc26618aa9" />
-<img width="1600" height="900" alt="Social 4" src="https://github.com/user-attachments/assets/74b0403e-28a0-4f8b-ac44-fcda90a85061" />
-<img width="1600" height="900" alt="Social 3" src="https://github.com/user-attachments/assets/fceb9986-3bf1-4b53-873a-1b8bfa1c762a" />
-<img width="1600" height="900" alt="Social2" src="https://github.com/user-attachments/assets/2ec9776c-729a-4884-b7b2-36f96c44b410" />
-<img width="1600" height="900" alt="Social1" src="https://github.com/user-attachments/assets/67c09f84-701b-4ba2-8605-99e05f02aa3e" />
 # CodeAlpha_Task-2
 
 Name: UMAR ABUBAKAR
@@ -86,3 +81,8 @@ social-media-app/
 │ └── explore.html # User discovery
 └── README.md
 
+<img width="1600" height="900" alt="Social 5" src="https://github.com/user-attachments/assets/138cee15-6de5-4639-a36b-a3bc26618aa9" />
+<img width="1600" height="900" alt="Social 4" src="https://github.com/user-attachments/assets/74b0403e-28a0-4f8b-ac44-fcda90a85061" />
+<img width="1600" height="900" alt="Social 3" src="https://github.com/user-attachments/assets/fceb9986-3bf1-4b53-873a-1b8bfa1c762a" />
+<img width="1600" height="900" alt="Social2" src="https://github.com/user-attachments/assets/2ec9776c-729a-4884-b7b2-36f96c44b410" />
+<img width="1600" height="900" alt="Social1" src="https://github.com/user-attachments/assets/67c09f84-701b-4ba2-8605-99e05f02aa3e" />
